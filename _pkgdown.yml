@@ -1,0 +1,32 @@
+url: https://dataniel.github.io/brch
+
+template:
+  bootstrap: 5
+
+navbar:
+  structure:
+    left: [intro, reference]
+    right: [github]
+  components:
+    github:
+      icon: fab fa-github
+      href: https://github.com/dataniel/brch
+
+home:
+  strip_header: true
+
+reference:
+  - title: Inspect and convert
+    contents:
+      - inspect_db
+      - convert_db07_to_db25
+      - convert_db25_to_db07
+
+  - title: Labels and format
+    contents:
+      - db_label
+      - format_db07
+
+  - title: Package
+    contents:
+      - brch-package

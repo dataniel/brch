@@ -1,0 +1,27 @@
+Package: brch
+Title: Danish Industry Codes: DB07 and DB25
+Version: 0.1.0
+Authors@R: person("Daniel", "Madsen", email = "danielmadsen@live.dk",
+    role = c("aut", "cre"))
+Description: Work with the Danish industry classifications DB07 and DB25
+    (Dansk Branchekode) from Statistics Denmark. Format codes, add labels,
+    inspect which classification a code belongs to, and convert between
+    DB07 and DB25 with the bundled keys, offline.
+License: MIT + file LICENSE
+URL: https://dataniel.github.io/brch, https://github.com/dataniel/brch
+BugReports: https://github.com/dataniel/brch/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends:
+    R (>= 3.5)
+Imports:
+    tibble
+Suggests:
+    dplyr,
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/Needs/website: pkgdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Config/roxygen2/version: 8.0.0
